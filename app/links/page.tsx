@@ -16,6 +16,21 @@ const Links = () => {
         </ExternalLink>
         를 테스트하기 위한 목적입니다.
       </p>
+      <h2>연락</h2>
+      <ExternalLink url="mailto:choi@eunwoo.dev" icon={icons.mail}>
+        choi@eunwoo.dev
+      </ExternalLink>
+      <h3>Fallback 이메일</h3>
+      <ExternalLink url="mailto:sions0411@gmail.com" icon={icons.mail}>
+        sions0411@gmail.com
+      </ExternalLink>
+      <h3>학교 이메일</h3>
+      <ExternalLink url="mailto:sions0411@konkuk.ac.kr" icon={icons.mail}>
+        sions0411@konkuk.ac.kr
+      </ExternalLink>
+      <ExternalLink url="mailto:sions0411@syuin.ac.kr" icon={icons.mail}>
+        sions0411@syuin.ac.kr
+      </ExternalLink>
     </div>
   );
 };
